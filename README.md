@@ -9,7 +9,7 @@ This is a demo for 'node-bins'.
 
 3、run `create-bin`
 
-Then you will generate a global 'force push' command, and you can execute 'force-push <forcePushBranch>' in any directory already managed by git to force the current code to be pushed to the corresponding 'forcePushBranch' branch in the warehouse.
+Then you will generate a global 'force-push' command, and you can execute 'force-push <forcePushBranch>' in any directory already managed by git to force the current code to be pushed to the corresponding 'forcePushBranch' branch in the warehouse.
 
 
 
