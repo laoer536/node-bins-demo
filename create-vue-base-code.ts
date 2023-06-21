@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import {cwd} from 'node:process'
 import {writeFileSync} from 'node:fs'
 import {join} from "pathe";
