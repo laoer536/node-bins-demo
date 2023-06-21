@@ -59,5 +59,7 @@ writeFileSync(join(userRoot,filePath),resultCode)
 
 consola.success(green('vue code is created!!!'))
 
+//You can run 'create-vue vue3 scss ./index.vue' to write code to this './index.vue' file.
+
 
 
