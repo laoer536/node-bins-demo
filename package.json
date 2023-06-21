@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "create-vue": "jiti create-vue-base-code.ts"
   },
   "keywords": [],
   "author": "",
@@ -12,12 +12,14 @@
   "devDependencies": {
     "@types/minimist": "^1.2.2",
     "@types/node": "^20.3.1",
+    "jiti": "^1.18.2",
     "typescript": "^5.1.3"
   },
   "dependencies": {
     "consola": "^3.1.0",
     "execa": "^7.1.1",
     "kolorist": "^1.8.0",
-    "minimist": "^1.2.8"
+    "minimist": "^1.2.8",
+    "pathe": "^1.1.1"
   }
 }
