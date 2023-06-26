@@ -10,7 +10,7 @@ import minimist from "minimist";
 const argv = minimist(process.argv.slice(2))
 const [vueVersion,cssLoader,filePath] = argv._
 const userRoot = cwd()
-console.log(vueVersion,cssLoader)
+consola.info(`Start create ${vueVersion} code...`)
 const vue3BaseCode = `<template>
  <div>
 
@@ -57,7 +57,7 @@ const resultCode = code[vueVersion].replace('{lang}',cssLoader)
 //filePath, such as './index.vue', will write the corresponding code to your 'index.vue' file
 writeFileSync(join(userRoot,filePath),resultCode)
 
-consola.success(green('vue code is created!!!'))
+consola.success(green(`${vueVersion} code is created!!!`))
 
 //You can run 'create-vue vue3 scss ./index.vue' to write code to this './index.vue' file.
 
